@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cuba</title>
+<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+<link rel="stylesheet" href="Islands.css">
+<link href="https://fonts.googleapis.com/css?family=Kelly+Slab|Lemonada:300|Luckiest+Guy|Ma+Shan+Zheng|Righteous|Russo+One|Teko&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="Islands.js"></script>
+</head>
+<div class="header">
+<button class="hometab"><a href="home.html" id="Home">Home</button></a>
+<header>Cuba
+</header>
+</div><div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<body id="Cuba">
+<div>
+<main>
+<h3 style="background-image: url(images/blur.png); padding: 1%; border: solid 2px #ffffff; border-radius: %20;">
+Cuba, officially the Republic of Cuba, is a country comprising the island of Cuba as well as Isla de la Juventud and several minor archipelagos. Cuba is located in the northern Caribbean where the Caribbean Sea, Gulf of Mexico and Atlantic Ocean meet.</h3>
+	<button class="tablink" onclick="display('Elote',this,'#002A8F')">Elote</button>
+	<button class="tablink" onclick="display('Flan',this,'#FFFFFF')">Flan</button>
+	<button class="tablink" onclick="display('Costillitas',this,'#CF142B')">Costillitas</button>
+	<button class="tablink" onclick="display('Havana',this,'#002A8f')">Havana</button>
+</main>
+</div>
+
+<div id="Elote" class="tabcontent wrapper">
+	<h3>Elote</h3><img src="images/Elote.jpg">
+<p>Elotes are originally Mexican, but many Cuban restaurants, such as Café Habana in New York, have made it their own.
+It doesn’t matter whether you choose the dish at a Cuban restaurant, Mexican restaurant, from a street vendor or make Elote at home, it’s fabulous.
+While it may seem like nothing more than just grilled sweet corn with toppings, I assure you, it’s far more than just that. Not all fabulous foods come from the kitchens of great chefs and not all great chefs are in the kitchen of famous restaurants.
+
+Some of the most delicious foods are part of rich ethnic culture and prepared for celebrations or family gatherings. Elote is one of those foods.</p></div>
+<div id="Flan" class="tabcontent wrapper">
+	<h3>Flan</h3><img src="images/Flan.jpg">
+<p>Few desserts are as synonymous with Latin culture as flan, the soft caramel custard that’s served everywhere from Mexico to the Caribbean. In Cuba, where restaurant owners struggle to obtain a consistent supply of fresh food, “flan is something they almost always have the ingredients for,” says author and photographer Megan Fawn Schlow. Her new book, Paladares: Recipes Inspired by the Private Restaurants of Cuba, written with Anya von Bremzen, details the lengths to which the owners of paladares will go to adapt traditional recipes.
+
+Though flan is made with fresh milk in Mexico and much of central America, in Cuba, it’s made with evaporated and condensed milk from cans. The canned dairy is more economical, but as Schlow notes, essential because in Cuba “fresh milk is usually reserved for kids under the age of seven.” As an added bonus, the evaporated and condensed milks yield a thicker, creamier custard.</p>
+</div>
+
+<div id="Costillitas" class="tabcontent wrapper">
+  <h3>Costillitas</h3><img src="images/Costillitas.jpg">
+  <p>Pork ribs (costillas) / baby back ribs (costillitas) which are marinated and served with a mix of sour orange juice, lime juice, oregano, garlic, and olive oil. They taste sweet and tangy at the same time and are simply delicious.</p>
+</div>
+
+<div id="Havana" class="tabcontent wrapper">
+<h3>Havana</h3><img src="images/Havana.jpg">
+<p>Here's a picture of one of Dominican Republic's most popular location:</p>
+</div>
+
+<br>
+<br>
+<div id="wrapper">
+<h2>Fill out this form to learn more information and schedule a traveling consultations:
+</h2>
+<div class="row">
+<div  class="column"><main>
+<form action="action_page.php" autocorrect=off >
+<label for="fname">First Name:</label>
+<input type="text" name="fname" placeholder="John" maxlength="25"><br><br>
+<label for="lname">Last Name:</label> 
+<input type="text" name="lname" placeholder="Smith" maxlength="25"><br><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" maxlength="10"><br><br>
+<label for="email">Email:</label>
+<input type="email" name="email" placeholder="johnsmith@healthfit.com" maxlength="50"> <br><br>
+<label>Please enter the best date and time to reach you for further travel consultations:</label><br><br>
+<input type="datetime-local" name="datetime" min="2018-06-07T00:00" max="2024-06-14T00:00">
+</main></div>
+<div class="column">
+<main>
+  <label for="vol">How likely are you to recommend our services to friends/family:</label><br>
+  <input type="range" id="vol" name="vol" min="0" max="100">
+</main>
+
+</div>
+</div><div id="submit">
+<input type="submit" value="Send">
+</div>
+</div>
+<footer>We're located in San Diego, California.&emsp;
+<a href ="www.pace.edu">islanddestination.pace.edu</a>&emsp;
+Nicholas Louisma&emsp;
+IT641&emsp;
+4/2/2020&emsp;
+Assignment9A</footer>
+</body>
+</html>
